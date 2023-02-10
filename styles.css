@@ -22,22 +22,33 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    /* font-size: 2em; */
 }
 
 h1{
+    /* font-size: 90px;  if changed to 100% it equals 16px to get 90px it would be 90px/16px = 5.625
+     % adjust with user preference selection in the browser 
+     16px = 100% = 1em so 90px = 562.5% = 5.625em  
+     em and % gets added if the parent has em or % font-size
+     if you use rem it will ignore the parent font-size */
+    font-size: 5.625rem;
     color: #66BFBF;
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     /* margin: 0 auto 0 auto; */
     font-family: "Sacramento", cursive;
+    /* line-height: 2; */
 }
 
 h2{
+    color: #66BFBF;
+    font-weight: normal;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
 }
 
 
 h3{
-    color: #66BFBF;
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -69,3 +80,31 @@ hr {
     left: 300px;
     bottom: 300px;
 }
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.web-dev{
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+.code{
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+    
+    
+}
+
+/* 
+Below code is used to clear paragraph from float left like mentioned above
+
+.skill-desc{
+    clear: left;
+} */
