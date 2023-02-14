@@ -129,8 +129,31 @@ hr {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
+}
 
-
+.dev-link{
+    margin-left: 0px;
+}
+.case1{
+    width:4%;
+    position: absolute;
+    right: 385px;
+    top: 0px;
+    
+}
+.case2{
+    width:4.5%;
+    position: absolute;
+    left: 48%;
+    top: 40px;
+    
+}
+.check{
+    width:1%;
+}
+.extra{
+    position: relative;
+    margin: 50px auto 80px auto;
 }
 
 .web-dev{
@@ -147,6 +170,10 @@ hr {
     width: 15%;
     float: left;
     margin-right: 30px; 
+}
+
+.dev{
+    background-color: rgb(235, 235, 235);
 }
 
 /* 
